@@ -1,5 +1,13 @@
 .mail-title {
   color: #fff;
+  font-size: 3rem; }
+
+.subtitle {
+  color: #fff;
+  font-size: 1.7rem; }
+
+.card-title {
+  font-weight: 400;
   font-size: 2rem; }
 
 .u-margin-top-big {
@@ -10,6 +18,9 @@
 
 .u-margin-top-small {
   margin-top: 1rem; }
+
+.u-margin-right-btn {
+  margin-right: 4rem; }
 
 *,
 *::before,
@@ -28,21 +39,18 @@ body {
   color: #000;
   font-weight: 400;
   line-height: 1.3;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #fff; }
 
 .container {
   display: grid;
   grid-template-rows: 20vh 30vh;
-  grid-template-columns: 1fr 80vw 1fr; }
-  .container img {
-    height: 10rem; }
+  grid-template-columns: 1fr 550px 1fr; }
 
 .header {
   grid-column: 2 / span 1;
   display: flex;
-  justify-content: space-between;
-  background-color: aqua; }
+  justify-content: space-between; }
   .header__logo {
     height: 100%;
     width: auto;
@@ -56,10 +64,55 @@ body {
   grid-column: 2 / span 1; }
 
 .content-primary {
-  grid-column: 2 / span 1; }
+  grid-column: 2 / span 1;
+  position: relative; }
+  .content-primary__img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1; }
+  .content-primary__info {
+    height: 31rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }
+  .content-primary__logo {
+    height: 6rem;
+    margin: 8rem 0 4rem 3rem; }
+  .content-primary__description {
+    width: 27rem;
+    margin-left: 3rem; }
+  .content-primary__buttons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 3rem; }
 
 .content-secundary {
   grid-column: 2 / span 1; }
+  .content-secundary__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem; }
+  .content-secundary__card {
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }
+  .content-secundary__img {
+    width: 100%; }
+  .content-secundary__text {
+    position: absolute; }
 
 .content-plus {
   grid-column: 2 / span 1; }
+
+.buttons__play {
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 0 3.5rem;
+  height: 3rem; }
+
+.buttons__list {
+  font-size: 2.5rem; }
+
+.footer__logo img {
+  width: 10vw; }

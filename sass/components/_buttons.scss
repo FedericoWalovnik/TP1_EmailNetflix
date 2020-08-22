@@ -1,0 +1,13 @@
+.buttons {
+  &__play {
+    border: none;
+    border-radius: 3px;
+    background-color: $white-neutral;
+    padding: 0 3.5rem;
+    height: 3rem;
+  }
+
+  &__list {
+    font-size: 2.5rem;
+  }
+}

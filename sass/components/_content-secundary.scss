@@ -1,3 +1,27 @@
 .content-secundary {
   grid-column: 2 / span 1;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+  }
+
+  &__card {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__text {
+    position: absolute;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(255, 255, 255, 0)
+    );
+  }
 }
