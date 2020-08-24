@@ -124,6 +124,9 @@ body {
 .content-plus {
   grid-column: 2 / span 1;
   margin-top: 3rem; }
+  .content-plus__text {
+    display: flex;
+    align-items: center; }
   .content-plus__content {
     position: relative; }
   .content-plus__title {

@@ -2,6 +2,11 @@
   grid-column: 2 / span 1;
   margin-top: $margin-sections;
 
+  &__text {
+    display: flex;
+    align-items: center;
+  }
+
   &__content {
     position: relative;
   }
