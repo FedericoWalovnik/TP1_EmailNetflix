@@ -13,5 +13,9 @@
     align-self: center;
     font-size: 2rem;
     color: $white-neutral;
+
+    & i {
+      padding-left: 1rem;
+    }
   }
 }

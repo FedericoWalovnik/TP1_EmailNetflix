@@ -59,6 +59,8 @@ body {
     align-self: center;
     font-size: 2rem;
     color: #fff; }
+    .header__socials i {
+      padding-left: 1rem; }
 
 .introduction {
   grid-column: 2 / span 1; }
@@ -87,19 +89,32 @@ body {
     right: 3rem; }
 
 .content-secundary {
-  grid-column: 2 / span 1; }
+  grid-column: 2 / span 1;
+  margin-top: 3rem; }
   .content-secundary__cards {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2rem; }
   .content-secundary__card {
     display: flex;
-    align-items: flex-end;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }
+    align-items: flex-end; }
   .content-secundary__img {
-    width: 100%; }
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden; }
   .content-secundary__text {
-    position: absolute; }
+    padding: 1rem;
+    height: 10rem;
+    position: absolute;
+    width: 17rem;
+    background-image: linear-gradient(to top, black, rgba(255, 255, 255, 0)); }
+  .content-secundary__icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem; }
+    .content-secundary__icons i {
+      padding-left: 0.9rem; }
 
 .content-plus {
   grid-column: 2 / span 1; }
@@ -113,6 +128,9 @@ body {
 
 .buttons__list {
   font-size: 2.5rem; }
+
+.buttons__small {
+  font-size: 2.2rem; }
 
 .footer__logo img {
   width: 10vw; }
