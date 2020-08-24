@@ -1,6 +1,7 @@
 .content-primary {
   grid-column: 2 / span 1;
   position: relative;
+  margin-top: $margin-sections;
 
   &__img {
     width: 100%;
@@ -32,6 +33,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    right: 3rem;
+    right: 3.5rem;
   }
 }

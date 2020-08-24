@@ -1,0 +1,20 @@
+.des-code {
+  grid-column: 2 / span 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: $margin-sections;
+
+  &__title {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  &__code {
+    margin-top: 2rem;
+    border: 0.8px solid $white-neutral;
+    padding: 1rem 2rem;
+  }
+}

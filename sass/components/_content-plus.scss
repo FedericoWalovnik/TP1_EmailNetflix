@@ -1,12 +1,12 @@
 .content-plus {
   grid-column: 2 / span 1;
+  margin-top: $margin-sections;
 
   &__content {
     position: relative;
   }
 
   &__title {
-    margin-top: 3rem;
     margin-bottom: 2rem;
   }
 
