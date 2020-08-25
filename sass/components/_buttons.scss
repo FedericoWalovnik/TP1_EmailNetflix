@@ -6,8 +6,9 @@
     padding: 0 3.5rem;
     height: 2.3rem;
     font-size: 1.1rem;
+    cursor: pointer;
 
-    & i { 
+    & i {
       font-size: 0.9rem;
       margin-right: 0.6rem;
     }
@@ -19,5 +20,13 @@
 
   &__small {
     font-size: 2.2rem;
+  }
+
+  &__link,
+  &__link:focus,
+  &__link:visited,
+  &__link:active {
+    color: white;
+    text-decoration: none;
   }
 }

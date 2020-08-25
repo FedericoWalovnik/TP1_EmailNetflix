@@ -33,6 +33,7 @@
   }
 
   &__icons {
+    z-index: 10;
     display: flex;
     justify-content: flex-end;
     margin-top: 1rem;
